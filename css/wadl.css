@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+.methods {
+    padding: 1em;
+}
+
+.method {
+    margin-bottom: 10px;
+    background-color: whiteSmoke;
+    border: 1px solid #E3E3E3;
+    padding-left: 10px;
+}
+
+.toc {
+    padding-left: 50px;
+}
+
+.spacer {
+    height: 30px;
+}
+
+p {
+    margin: 0 0 0 0px;
+}
+
+dd {
+    margin-left: 1em;
+}
+
+tt {
+    font-size: 1.2em;
+}
+
+table {
+    margin-bottom: 0.5em;
+}
+
+th {
+    text-align: left;
+    font-weight: normal;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 3px 6px;
+}
+
+td {
+    padding: 3px 6px;
+    vertical-align: top;
+    background-color: f6f6ff;
+    font-size: 0.85em;
+}
+
+td p {
+    margin: 0px;
+}
+
+ul.links {
+    padding-left: 1.75em;
+    margin-top: 0.25em;
+    background-color: whiteSmoke;
+    border: 1px solid #E3E3E3;
+}
+
+p+ul,p+ol,p+dl {
+    margin-top: 0em;
+}
+
+.optional {
+    font-weight: normal;
+    opacity: 0.75;
+}

@@ -24,3 +24,10 @@ components of a URI, so they can be accurately described (e.g., in a WADL param 
 
 Feedback is preferred on the 
 `W3C http description list <http://lists.w3.org/Archives/Public/public-web-http-desc/>`__.
+
+
+**Addenda from mwerlen :**
+
+- wadl_documentation-xdoc.xsl is a derived XSL to generate XDOC used by Maven Site Plugin to generate maven projects documentation. I used it with `Maven Fluido Skin <http://maven.apache.org/skins/maven-fluido-skin/>`__.
+- wadl_documentation-html.xsl is a modified version of initial mmot's wadl XSL. I added some layout changes.
+
